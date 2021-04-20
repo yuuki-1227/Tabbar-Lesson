@@ -37,11 +37,25 @@ h1 {
   border-bottom: none;
 }
 
-#tab-menu.active {
+#tab-menu .active {
   background: #fff;
   color: #000;
-} 
+}
 
 #tab-contents {
-  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#tab-contents .tab {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #000;
+  border-top: none;
+}
+
+#top-contents p {
+  color: #000;
+  line-height: 2.5;
 }
